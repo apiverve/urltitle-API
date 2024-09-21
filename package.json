@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/urltitle",
+  "version": "1.1.5",
+  "description": "URL Title is a simple tool for getting the title of a web page. It returns the title of the web page based on the URL provided.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/urltitle-API.git"
+  },
+  "keywords": [
+    "url title","url title api","url title tool","url title software","url title service"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/urltitle-API/issues"
+  },
+  "homepage": "https://apiverve.com/marketplace/api/urltitle?utm_source=npm",
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "chai": "^5.1.1",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "promise": "^8.3.0",
+    "axios": "1.7.7"
+  }
+}
